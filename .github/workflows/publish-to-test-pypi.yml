@@ -38,7 +38,7 @@ jobs:
       name: release
       url: https://test.pypi.org/p/myspecialmod
     permissions:
-      id-token: write
+      id-token: ${{ secrets.PYPI_TOKEN }}
     steps:
     - name: Download all the dists
       uses: actions/download-artifact@v3
