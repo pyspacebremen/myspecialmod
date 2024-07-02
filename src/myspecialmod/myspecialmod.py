@@ -1,7 +1,7 @@
 
 
 def getVersion():
-    return "1.3.28"
+    return "1.3.29"
 
 def getName():
     return "My Special Module"
